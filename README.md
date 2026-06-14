@@ -1,5 +1,5 @@
 ﻿# My first RISC-V CPU.
- Hi! I'm 15 years old and it is my training project. Here I am trying to understand how our computers works in low level.
+ Hi! I'm 15 years old and it is my training project. Here I am trying to understand how our computers work in low level.
  
 Project is writing in **SytemVerilog**, **Xilinx Vivado** IDE.
 
