@@ -1,0 +1,13 @@
+# ¬ременный мусор Vivado
+*.log
+*.jou
+*.str
+*.os
+.Xil/
+hd_visual/
+
+# ѕапки автогенерации (их Ќ≈Ћ№«я пушить)
+RISK-V.cache/
+RISK-V.hw/
+RISK-V.ip_user_files/
+RISK-V.sim/

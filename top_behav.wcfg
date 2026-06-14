@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="headers" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,881.522 ns"></ZoomEndTime>
+      <Cursor1Time time="99.865 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="254"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/RegisterFile_i/regs" type="array">
+      <obj_property name="ElementShortName">regs[15:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[15:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/instr_o" type="array">
+      <obj_property name="ElementShortName">instr_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_o[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/decoder/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/decoder/valid_i" type="logic">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/decoder/instr" type="array">
+      <obj_property name="ElementShortName">instr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/decoder/op1_o" type="array">
+      <obj_property name="ElementShortName">op1_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op1_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/decoder/op2_o" type="array">
+      <obj_property name="ElementShortName">op2_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op2_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/state_ff" type="array">
+      <obj_property name="ElementShortName">state_ff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state_ff[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/state_next" type="array">
+      <obj_property name="ElementShortName">state_next[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state_next[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/valid_i" type="logic">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/opcode_ff" type="array">
+      <obj_property name="ElementShortName">opcode_ff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_ff[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/op1_ff" type="array">
+      <obj_property name="ElementShortName">op1_ff[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op1_ff[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/op2_ff" type="array">
+      <obj_property name="ElementShortName">op2_ff[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op2_ff[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/exe2mem_req_read_o" type="logic">
+      <obj_property name="ElementShortName">exe2mem_req_read_o</obj_property>
+      <obj_property name="ObjectShortName">exe2mem_req_read_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/exe2mem_addr_r_o" type="array">
+      <obj_property name="ElementShortName">exe2mem_addr_r_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">exe2mem_addr_r_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/mem2exe_data_ready_i" type="logic">
+      <obj_property name="ElementShortName">mem2exe_data_ready_i</obj_property>
+      <obj_property name="ObjectShortName">mem2exe_data_ready_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/req_read" type="logic">
+      <obj_property name="ElementShortName">req_read</obj_property>
+      <obj_property name="ObjectShortName">req_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/RegisterFile_i/read_req1" type="logic">
+      <obj_property name="ElementShortName">read_req1</obj_property>
+      <obj_property name="ObjectShortName">read_req1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/RegisterFile_i/read_req2" type="logic">
+      <obj_property name="ElementShortName">read_req2</obj_property>
+      <obj_property name="ObjectShortName">read_req2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/RegisterFile_i/write_req1" type="logic">
+      <obj_property name="ElementShortName">write_req1</obj_property>
+      <obj_property name="ObjectShortName">write_req1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/req_write" type="logic">
+      <obj_property name="ElementShortName">req_write</obj_property>
+      <obj_property name="ObjectShortName">req_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/regfile_data_w" type="array">
+      <obj_property name="ElementShortName">regfile_data_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile_data_w[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/executor/mem2exe_op_data_i" type="array">
+      <obj_property name="ElementShortName">mem2exe_op_data_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem2exe_op_data_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/data_req_read" type="logic">
+      <obj_property name="ElementShortName">data_req_read</obj_property>
+      <obj_property name="ObjectShortName">data_req_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/addr_data_read" type="array">
+      <obj_property name="ElementShortName">addr_data_read[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data_read[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/req_write" type="logic">
+      <obj_property name="ElementShortName">req_write</obj_property>
+      <obj_property name="ObjectShortName">req_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/f/mem" type="array">
+      <obj_property name="ElementShortName">mem[127:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[127:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/mem2exe_data" type="logic">
+      <obj_property name="ElementShortName">mem2exe_data</obj_property>
+      <obj_property name="ObjectShortName">mem2exe_data</obj_property>
+   </wvobject>
+</wave_config>
