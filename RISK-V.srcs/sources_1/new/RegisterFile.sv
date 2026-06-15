@@ -30,7 +30,7 @@ module RegisterFile(
             else begin
                 if(read_req1) begin
                     data1_o <= data1;
-                    regfile_data_ready1 <= read_req1;// почему нет ошибки это же не comb
+                    regfile_data_ready1 <= read_req1;
                 end
                 if(read_req2) begin
                     data2_o <= data2;

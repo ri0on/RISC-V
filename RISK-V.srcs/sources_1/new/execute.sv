@@ -10,7 +10,7 @@ module execute(
     output logic [ADDR_WIDTH-1:0] exe2mem_addr_w_o,
     output logic [ADDR_WIDTH-1:0] exe2mem_addr_r_o,
     output logic [INSTR_SIZE-1:0] exe2mem_data_w_o,
-    input logic mem2exe_data_ready_i,// почему instr size?
+    input logic mem2exe_data_ready_i,
     input logic [INSTR_SIZE-1:0] mem2exe_op_data_i,
     
     
@@ -59,8 +59,8 @@ module execute(
       logic [INSTR_SIZE-1:0] regfile_data_w;
       logic [INSTR_SIZE-1:0] regfile_data_r1;
       logic [INSTR_SIZE-1:0] regfile_data_r2;
-      logic [INSTR_SIZE-1:0] regfile_data_ready1;
-      logic [INSTR_SIZE-1:0] regfile_data_ready2;
+      logic regfile_data_ready1;
+      logic regfile_data_ready2;
       logic req_write;
       
       logic [ADDR_WIDTH-1:0] regfile_addr1;
@@ -73,6 +73,12 @@ module execute(
            state_next = 0;
            req_write = 0;
            regfile_req_read = '0;
+           regfile_data_w = '0;
+           regfile_addr1 = '0;
+           regfile_addr2 = '0;
+           exe2mem_addr_r_o = '0;
+           exe2mem_addr_w_o = '0;
+           exe2mem_data_w_o = '0;
            case(state_ff)
                 0: begin
                     if(valid_i)
@@ -85,10 +91,14 @@ module execute(
                              exe2mem_addr_r_o = op1_ff;
                              state_next = 2;
                         end
-                        '1: begin //store
+                        1: begin //store
                             regfile_req_read[0] = 1;
                             regfile_addr1 = op2_ff;
                             state_next = 2;
+                        end
+                        default: begin
+                         state_next = 0;
+                         ready = 1;
                         end
                     endcase
                 end
@@ -105,11 +115,12 @@ module execute(
                                 ready = 1;
                             end
                         end
-                        '1: begin //store
+                         1: begin //store
                             exe2mem_req_write_o = 1;
                             exe2mem_data_w_o = regfile_data_r1;
                             exe2mem_addr_w_o = op1_ff;
                             state_next = 0;
+                            ready = 1;
                         end
                     endcase 
                 end

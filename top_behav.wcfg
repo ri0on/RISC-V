@@ -13,14 +13,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="1,881.522 ns"></ZoomEndTime>
+      <ZoomEndTime time="1,288.741 ns"></ZoomEndTime>
       <Cursor1Time time="99.865 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="254"></NameColumnWidth>
-      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="32" />
+   <WVObjectSize size="9" />
    <wvobject fp_name="/top/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -29,125 +29,547 @@
       <obj_property name="ElementShortName">regs[15:0][15:0]</obj_property>
       <obj_property name="ObjectShortName">regs[15:0][15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/top/f/instr_o" type="array">
-      <obj_property name="ElementShortName">instr_o[15:0]</obj_property>
-      <obj_property name="ObjectShortName">instr_o[15:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+   <wvobject fp_name="/top/f/mem" type="array">
+      <obj_property name="ElementShortName">mem[127:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[127:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/f/mem[127]" type="array">
+         <obj_property name="ElementShortName">[127][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[127][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[126]" type="array">
+         <obj_property name="ElementShortName">[126][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[126][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[125]" type="array">
+         <obj_property name="ElementShortName">[125][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[125][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[124]" type="array">
+         <obj_property name="ElementShortName">[124][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[124][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[123]" type="array">
+         <obj_property name="ElementShortName">[123][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[123][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[122]" type="array">
+         <obj_property name="ElementShortName">[122][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[122][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[121]" type="array">
+         <obj_property name="ElementShortName">[121][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[121][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[120]" type="array">
+         <obj_property name="ElementShortName">[120][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[120][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[119]" type="array">
+         <obj_property name="ElementShortName">[119][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[119][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[118]" type="array">
+         <obj_property name="ElementShortName">[118][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[118][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[117]" type="array">
+         <obj_property name="ElementShortName">[117][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[117][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[116]" type="array">
+         <obj_property name="ElementShortName">[116][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[116][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[115]" type="array">
+         <obj_property name="ElementShortName">[115][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[115][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[114]" type="array">
+         <obj_property name="ElementShortName">[114][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[114][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[113]" type="array">
+         <obj_property name="ElementShortName">[113][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[113][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[112]" type="array">
+         <obj_property name="ElementShortName">[112][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[112][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[111]" type="array">
+         <obj_property name="ElementShortName">[111][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[111][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[110]" type="array">
+         <obj_property name="ElementShortName">[110][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[110][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[109]" type="array">
+         <obj_property name="ElementShortName">[109][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[109][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[108]" type="array">
+         <obj_property name="ElementShortName">[108][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[108][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[107]" type="array">
+         <obj_property name="ElementShortName">[107][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[107][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[106]" type="array">
+         <obj_property name="ElementShortName">[106][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[106][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[105]" type="array">
+         <obj_property name="ElementShortName">[105][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[105][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[104]" type="array">
+         <obj_property name="ElementShortName">[104][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[104][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[103]" type="array">
+         <obj_property name="ElementShortName">[103][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[103][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[102]" type="array">
+         <obj_property name="ElementShortName">[102][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[102][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[101]" type="array">
+         <obj_property name="ElementShortName">[101][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[101][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[100]" type="array">
+         <obj_property name="ElementShortName">[100][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[100][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[99]" type="array">
+         <obj_property name="ElementShortName">[99][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[99][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[98]" type="array">
+         <obj_property name="ElementShortName">[98][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[98][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[97]" type="array">
+         <obj_property name="ElementShortName">[97][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[97][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[96]" type="array">
+         <obj_property name="ElementShortName">[96][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[96][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[95]" type="array">
+         <obj_property name="ElementShortName">[95][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[95][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[94]" type="array">
+         <obj_property name="ElementShortName">[94][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[94][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[93]" type="array">
+         <obj_property name="ElementShortName">[93][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[93][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[92]" type="array">
+         <obj_property name="ElementShortName">[92][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[92][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[91]" type="array">
+         <obj_property name="ElementShortName">[91][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[91][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[90]" type="array">
+         <obj_property name="ElementShortName">[90][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[90][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[89]" type="array">
+         <obj_property name="ElementShortName">[89][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[89][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[88]" type="array">
+         <obj_property name="ElementShortName">[88][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[88][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[87]" type="array">
+         <obj_property name="ElementShortName">[87][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[87][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[86]" type="array">
+         <obj_property name="ElementShortName">[86][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[86][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[85]" type="array">
+         <obj_property name="ElementShortName">[85][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[85][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[84]" type="array">
+         <obj_property name="ElementShortName">[84][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[84][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[83]" type="array">
+         <obj_property name="ElementShortName">[83][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[83][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[82]" type="array">
+         <obj_property name="ElementShortName">[82][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[82][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[81]" type="array">
+         <obj_property name="ElementShortName">[81][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[81][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[80]" type="array">
+         <obj_property name="ElementShortName">[80][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[80][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[79]" type="array">
+         <obj_property name="ElementShortName">[79][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[79][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[78]" type="array">
+         <obj_property name="ElementShortName">[78][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[78][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[77]" type="array">
+         <obj_property name="ElementShortName">[77][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[77][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[76]" type="array">
+         <obj_property name="ElementShortName">[76][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[76][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[75]" type="array">
+         <obj_property name="ElementShortName">[75][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[75][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[74]" type="array">
+         <obj_property name="ElementShortName">[74][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[74][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[73]" type="array">
+         <obj_property name="ElementShortName">[73][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[73][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[72]" type="array">
+         <obj_property name="ElementShortName">[72][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[72][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[71]" type="array">
+         <obj_property name="ElementShortName">[71][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[71][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[70]" type="array">
+         <obj_property name="ElementShortName">[70][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[70][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[69]" type="array">
+         <obj_property name="ElementShortName">[69][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[69][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[68]" type="array">
+         <obj_property name="ElementShortName">[68][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[68][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[67]" type="array">
+         <obj_property name="ElementShortName">[67][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[67][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[66]" type="array">
+         <obj_property name="ElementShortName">[66][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[66][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[65]" type="array">
+         <obj_property name="ElementShortName">[65][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[65][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[64]" type="array">
+         <obj_property name="ElementShortName">[64][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[64][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[63]" type="array">
+         <obj_property name="ElementShortName">[63][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[62]" type="array">
+         <obj_property name="ElementShortName">[62][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[61]" type="array">
+         <obj_property name="ElementShortName">[61][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[60]" type="array">
+         <obj_property name="ElementShortName">[60][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[59]" type="array">
+         <obj_property name="ElementShortName">[59][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[58]" type="array">
+         <obj_property name="ElementShortName">[58][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[57]" type="array">
+         <obj_property name="ElementShortName">[57][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[56]" type="array">
+         <obj_property name="ElementShortName">[56][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[55]" type="array">
+         <obj_property name="ElementShortName">[55][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[54]" type="array">
+         <obj_property name="ElementShortName">[54][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[53]" type="array">
+         <obj_property name="ElementShortName">[53][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[52]" type="array">
+         <obj_property name="ElementShortName">[52][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[51]" type="array">
+         <obj_property name="ElementShortName">[51][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[50]" type="array">
+         <obj_property name="ElementShortName">[50][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[49]" type="array">
+         <obj_property name="ElementShortName">[49][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[48]" type="array">
+         <obj_property name="ElementShortName">[48][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[47]" type="array">
+         <obj_property name="ElementShortName">[47][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[46]" type="array">
+         <obj_property name="ElementShortName">[46][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[45]" type="array">
+         <obj_property name="ElementShortName">[45][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[44]" type="array">
+         <obj_property name="ElementShortName">[44][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[43]" type="array">
+         <obj_property name="ElementShortName">[43][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[42]" type="array">
+         <obj_property name="ElementShortName">[42][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[41]" type="array">
+         <obj_property name="ElementShortName">[41][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[40]" type="array">
+         <obj_property name="ElementShortName">[40][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[39]" type="array">
+         <obj_property name="ElementShortName">[39][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[38]" type="array">
+         <obj_property name="ElementShortName">[38][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[37]" type="array">
+         <obj_property name="ElementShortName">[37][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[36]" type="array">
+         <obj_property name="ElementShortName">[36][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[35]" type="array">
+         <obj_property name="ElementShortName">[35][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[34]" type="array">
+         <obj_property name="ElementShortName">[34][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[33]" type="array">
+         <obj_property name="ElementShortName">[33][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[32]" type="array">
+         <obj_property name="ElementShortName">[32][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[31]" type="array">
+         <obj_property name="ElementShortName">[31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[30]" type="array">
+         <obj_property name="ElementShortName">[30][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[29]" type="array">
+         <obj_property name="ElementShortName">[29][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[28]" type="array">
+         <obj_property name="ElementShortName">[28][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[27]" type="array">
+         <obj_property name="ElementShortName">[27][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[26]" type="array">
+         <obj_property name="ElementShortName">[26][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[25]" type="array">
+         <obj_property name="ElementShortName">[25][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[24]" type="array">
+         <obj_property name="ElementShortName">[24][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[23]" type="array">
+         <obj_property name="ElementShortName">[23][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[22]" type="array">
+         <obj_property name="ElementShortName">[22][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[21]" type="array">
+         <obj_property name="ElementShortName">[21][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[20]" type="array">
+         <obj_property name="ElementShortName">[20][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[19]" type="array">
+         <obj_property name="ElementShortName">[19][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[18]" type="array">
+         <obj_property name="ElementShortName">[18][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[17]" type="array">
+         <obj_property name="ElementShortName">[17][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[16]" type="array">
+         <obj_property name="ElementShortName">[16][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[15]" type="array">
+         <obj_property name="ElementShortName">[15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[14]" type="array">
+         <obj_property name="ElementShortName">[14][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[13]" type="array">
+         <obj_property name="ElementShortName">[13][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[12]" type="array">
+         <obj_property name="ElementShortName">[12][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[11]" type="array">
+         <obj_property name="ElementShortName">[11][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[10]" type="array">
+         <obj_property name="ElementShortName">[10][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[9]" type="array">
+         <obj_property name="ElementShortName">[9][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[8]" type="array">
+         <obj_property name="ElementShortName">[8][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[7]" type="array">
+         <obj_property name="ElementShortName">[7][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[6]" type="array">
+         <obj_property name="ElementShortName">[6][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[5]" type="array">
+         <obj_property name="ElementShortName">[5][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[4]" type="array">
+         <obj_property name="ElementShortName">[4][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[3]" type="array">
+         <obj_property name="ElementShortName">[3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[2]" type="array">
+         <obj_property name="ElementShortName">[2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[1]" type="array">
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/f/mem[0]" type="array">
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+      </wvobject>
    </wvobject>
-   <wvobject fp_name="/top/f/valid_o" type="logic">
-      <obj_property name="ElementShortName">valid_o</obj_property>
-      <obj_property name="ObjectShortName">valid_o</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/addr" type="array">
-      <obj_property name="ElementShortName">addr[6:0]</obj_property>
-      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/decoder/opcode" type="array">
-      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
-      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/decoder/valid_i" type="logic">
-      <obj_property name="ElementShortName">valid_i</obj_property>
-      <obj_property name="ObjectShortName">valid_i</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/decoder/instr" type="array">
-      <obj_property name="ElementShortName">instr[15:0]</obj_property>
-      <obj_property name="ObjectShortName">instr[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/decoder/op1_o" type="array">
-      <obj_property name="ElementShortName">op1_o[6:0]</obj_property>
-      <obj_property name="ObjectShortName">op1_o[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/decoder/op2_o" type="array">
-      <obj_property name="ElementShortName">op2_o[6:0]</obj_property>
-      <obj_property name="ObjectShortName">op2_o[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/state_ff" type="array">
-      <obj_property name="ElementShortName">state_ff[4:0]</obj_property>
-      <obj_property name="ObjectShortName">state_ff[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/state_next" type="array">
-      <obj_property name="ElementShortName">state_next[4:0]</obj_property>
-      <obj_property name="ObjectShortName">state_next[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/valid_i" type="logic">
-      <obj_property name="ElementShortName">valid_i</obj_property>
-      <obj_property name="ObjectShortName">valid_i</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/opcode_ff" type="array">
-      <obj_property name="ElementShortName">opcode_ff[4:0]</obj_property>
-      <obj_property name="ObjectShortName">opcode_ff[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/op1_ff" type="array">
-      <obj_property name="ElementShortName">op1_ff[6:0]</obj_property>
-      <obj_property name="ObjectShortName">op1_ff[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/op2_ff" type="array">
-      <obj_property name="ElementShortName">op2_ff[6:0]</obj_property>
-      <obj_property name="ObjectShortName">op2_ff[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/exe2mem_req_read_o" type="logic">
-      <obj_property name="ElementShortName">exe2mem_req_read_o</obj_property>
-      <obj_property name="ObjectShortName">exe2mem_req_read_o</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/exe2mem_addr_r_o" type="array">
-      <obj_property name="ElementShortName">exe2mem_addr_r_o[6:0]</obj_property>
-      <obj_property name="ObjectShortName">exe2mem_addr_r_o[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/data_o" type="array">
-      <obj_property name="ElementShortName">data_o[15:0]</obj_property>
-      <obj_property name="ObjectShortName">data_o[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/mem2exe_data_ready_i" type="logic">
-      <obj_property name="ElementShortName">mem2exe_data_ready_i</obj_property>
-      <obj_property name="ObjectShortName">mem2exe_data_ready_i</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/req_read" type="logic">
-      <obj_property name="ElementShortName">req_read</obj_property>
-      <obj_property name="ObjectShortName">req_read</obj_property>
+   <wvobject fp_name="/top/executor/regfile_req_read" type="array">
+      <obj_property name="ElementShortName">regfile_req_read[1:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile_req_read[1:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/top/executor/RegisterFile_i/read_req1" type="logic">
       <obj_property name="ElementShortName">read_req1</obj_property>
       <obj_property name="ObjectShortName">read_req1</obj_property>
    </wvobject>
-   <wvobject fp_name="/top/executor/RegisterFile_i/read_req2" type="logic">
-      <obj_property name="ElementShortName">read_req2</obj_property>
-      <obj_property name="ObjectShortName">read_req2</obj_property>
+   <wvobject fp_name="/top/executor/RegisterFile_i/data1_o" type="array">
+      <obj_property name="ElementShortName">data1_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data1_o[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/top/executor/RegisterFile_i/write_req1" type="logic">
-      <obj_property name="ElementShortName">write_req1</obj_property>
-      <obj_property name="ObjectShortName">write_req1</obj_property>
+   <wvobject fp_name="/top/f/addr_next" type="array">
+      <obj_property name="ElementShortName">addr_next[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_next[6:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/top/executor/req_write" type="logic">
-      <obj_property name="ElementShortName">req_write</obj_property>
-      <obj_property name="ObjectShortName">req_write</obj_property>
+   <wvobject fp_name="/top/f/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/top/executor/regfile_data_w" type="array">
-      <obj_property name="ElementShortName">regfile_data_w[15:0]</obj_property>
-      <obj_property name="ObjectShortName">regfile_data_w[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/executor/mem2exe_op_data_i" type="array">
-      <obj_property name="ElementShortName">mem2exe_op_data_i[15:0]</obj_property>
-      <obj_property name="ObjectShortName">mem2exe_op_data_i[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/data_req_read" type="logic">
-      <obj_property name="ElementShortName">data_req_read</obj_property>
-      <obj_property name="ObjectShortName">data_req_read</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/addr_data_read" type="array">
-      <obj_property name="ElementShortName">addr_data_read[6:0]</obj_property>
-      <obj_property name="ObjectShortName">addr_data_read[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/req_write" type="logic">
-      <obj_property name="ElementShortName">req_write</obj_property>
-      <obj_property name="ObjectShortName">req_write</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/f/mem" type="array">
-      <obj_property name="ElementShortName">mem[127:0][15:0]</obj_property>
-      <obj_property name="ObjectShortName">mem[127:0][15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/mem2exe_data" type="logic">
-      <obj_property name="ElementShortName">mem2exe_data</obj_property>
-      <obj_property name="ObjectShortName">mem2exe_data</obj_property>
+   <wvobject fp_name="/top/f/instr" type="array">
+      <obj_property name="ElementShortName">instr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
 </wave_config>
