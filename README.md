@@ -4,7 +4,7 @@
 Project is writing in **SystemVerilog**, **Xilinx Vivado** IDE.
 
 
-#Stages
+# Stages
 The architecture of the processor core is divided into stages:
 * **Fetch (`fetch.sv`)** - get instruction from the memory.
 * **Decode (`decode.sv`)** - decoding commands.
@@ -16,6 +16,7 @@ The architecture of the processor core is divided into stages:
 * Base structure and connection between modules in 'top.sv'.
 * Decoding instructions.
 * Work with memory: commands like **Load** and **Store**.
+
 **In the near future:**
 * Finish **WriteBack (Retire)**.
 * Add 26 instructions.
